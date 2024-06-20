@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .font-20 {
+        @apply text-[16px];
+    }
+
+    .font-20 {
+        @apply text-[20px];
+    }
+}
