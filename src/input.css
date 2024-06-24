@@ -3,11 +3,39 @@
 @tailwind utilities;
 
 @layer components {
-    .font-20 {
-        @apply text-[16px];
+    .section {
+        @apply w-full py-[40px] xl:py-[80px];
+    }
+
+    .div {
+        @apply mx-auto flex w-full px-[16px] sm:max-xl:max-w-[640px] xl:max-w-[1440px] xl:px-[120px];
+    }
+
+    .btn {
+        @apply xl:text-base text-sm shadow-md text-center bg-blue text-white font-bold px-4 py-2 w-fit rounded-lg font-body;
+    }
+
+    .font-12 {
+        @apply font-body text-[12px] text-black xl:text-[14px];
+    }
+
+    .font-14 {
+        @apply font-body text-[14px] text-black xl:text-[16px];
+    }
+
+    .font-16 {
+        @apply font-body text-[16px] text-black xl:text-[20px];
     }
 
     .font-20 {
-        @apply text-[20px];
+        @apply font-body text-[20px] text-black xl:text-[24px];
+    }
+
+    .font-32 {
+        @apply font-heading text-[32px] leading-tight text-black xl:text-[48px];
+    }
+
+    .font-36 {
+        @apply font-heading text-[36px] leading-tight text-black xl:text-[60px];
     }
 }

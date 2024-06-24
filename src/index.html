@@ -3,38 +3,34 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="./output.css" />
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         </style>
-        <link rel="stylesheet" href="./output.css" />
         <title>IDB2B Landing Page</title>
     </head>
     <body>
         <!-- Hero & Nav-->
-        <section class="w-full bg-[url(../img/Background.png)] bg-cover">
-            <nav class="w-full xl:px-32 xl:max-w-[1440px] xl:mx-auto">
-                <div class="flex mx-auto px-6 py-4 justify-between items-center">
-                    <img class="xl:max-w-fit max-w-[100px] h-fit" src="../img/Vector copy.png" alt="" />
-                    <a href="#" class="xl:text-base text-sm shadow-md text-center bg-blue-800 text-white font-bold px-4 py-2 w-fit rounded-lg">Join Waitlist</a>
-                </div>
+        <section data-aos="fade-up" class="section pt-[32px] pb-0 bg-[url(../img/Background.png)] bg-cover">
+            <nav class="div justify-between items-center">
+                <img class="xl:max-w-fit max-w-[100px] h-fit" src="../img/Vector copy.png" alt="" />
+                <a href="#" class="btn">Join Waitlist</a>
             </nav>
-            <div class="flex flex-col mx-auto px-6 pt-12 gap-4 xl:px-32 xl:max-w-[1440px] xl:mx-auto">
-                <div class="flex flex-col items-center gap-4">
-                    <h1 class="text-4xl md:text-5xl lg:max-w-[720px] leading-tight md:leading-normal font-bold text-center">
-                        Seamlessly <span class="text-blue-800">Close Deals</span> with Our <span class="text-blue-800">B2B CRM Solution</span>
-                    </h1>
-                    <a href="#" class="xl:text-base text-sm text-center bg-blue-800 text-white font-bold px-4 py-2 w-fit rounded-lg">Join Waitlist</a>
-                    <p class="text-center md:max-w-[800px]">Managing leads and closing sales just got easier with our CRM lead management software. It's like having your sales assistant, but smarter and more organized.</p>
+            <div class="div flex flex-col pt-[40px] xl:pt-[80px]">
+                <div class="flex flex-col items-center gap-6 xl:gap-[32px]">
+                    <h1 class="font-36 text-center font-bold xl:max-w-[960px]">Seamlessly <span class="text-blue">Close Deals</span> with Our <span class="text-blue">B2B CRM Solution</span></h1>
+                    <a href="#" class="btn">Join Waitlist</a>
+                    <p class="font-16 text-center xl:max-w-[800px]">Managing leads and closing sales just got easier with our CRM lead management software. It's like having your sales assistant, but smarter and more organized.</p>
                 </div>
                 <img src="../img/Group 289470.png" alt="" />
             </div>
         </section>
-        <!-- Hero & Nav-->
 
         <!-- Logo -->
-        <section class="w-full bg-[#F6F7F8]">
-            <div class="flex flex-col mx-auto px-6 py-12 gap-6 xl:px-32 xl:max-w-[1440px] xl:mx-auto">
-                <p class="text-center font-semibold text-lg">Developed Based on Challenges in Many Businesses</p>
+        <section data-aos="fade-up" class="section py-[40px] bg-[#F6F7F8]">
+            <div class="div flex flex-col gap-[32px]">
+                <p class="text-center font-semibold font-20">Developed Based on Challenges in Many Businesses</p>
                 <div class="grid grid-cols-2 gap-8 justify-items-center md:grid-cols-4 xl:grid-cols-9 xl:items-center">
                     <img src="../img/image 20.png" alt="" />
                     <img src="../img/match logo red 1.png" alt="" />
@@ -48,14 +44,13 @@
                 </div>
             </div>
         </section>
-        <!-- Logo -->
 
         <!-- Kickstart -->
-        <section class="w-full">
-            <div class="flex flex-col mx-auto px-6 py-12 gap-6 xl:px-32 xl:max-w-[1440px] xl:mx-auto md:grid md:grid-cols-2 md:items-center xl:gap-[120px]">
+        <section data-aos="fade-up" class="section">
+            <div class="div flex flex-col gap-[32px] xl:flex-row xl:items-center xl:gap-[40px]">
                 <div class="flex flex-col gap-[16px]">
-                    <h2 class="text-3xl leading-tight font-bold text-left">Kickstart Your Journey in Indonesian B2B Market!</h2>
-                    <p class="text-left md:max-w-[800px]">Taking the first step is not always easy. That’s why we’re here with the solution and resources to help you starting your Indonesian B2B market journey.</p>
+                    <h2 class="font-bold text-left font-32">Kickstart Your Journey in Indonesian B2B Market!</h2>
+                    <p class="text-left font-16">Taking the first step is not always easy. That’s why we’re here with the solution and resources to help you starting your Indonesian B2B market journey.</p>
                     <div class="flex flex-col gap-[8px]">
                         <div class="flex gap-[8px] items-center">
                             <img src="../img/checklist.png" alt="" />
@@ -74,72 +69,140 @@
                 <img src="../img/kickstart.png" alt="" />
             </div>
         </section>
-        <!-- Kickstart -->
 
-        <!-- Features -->
-        <section class="w-full">
-            <div class="flex flex-col mx-auto px-6 py-12 gap-6 xl:px-32 xl:max-w-[1440px] xl:mx-auto">
-                <div class="flex flex-col gap-2">
-                    <p class="text-center text-blue-800 font-bold tracking-widest">HOW WE HELP YOU TO</p>
-                    <h2 class="text-3xl leading-tight font-bold text-center">Close Faster & Deal More</h2>
-                </div>
-                <div class="flex flex-col gap-6 md:grid md:grid-cols-2 lg:grid-cols-3">
-                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
-                        <img class="w-[50px]" src="../img/Frame 289567.png" alt="" />
-                        <p class="font-semibold">Leads Management</p>
-                        <p class="text-sm">Easily organize and prioritize your leads, leaving no opportunity behind. Our lead management software simplifies the process, optimizing efficiency and driving conversions.</p>
+        <!-- Our B2B -->
+        <section data-aos="fade-up" class="section">
+            <div class="div flex flex-col gap-[16px] xl:gap-[32px]">
+                <h2 class="font-32 font-bold text-center">Our B2B Platform & Data</h2>
+                <div class="flex flex-col gap-[32px] xl:grid xl:grid-cols-2 xl:gap-[40px]">
+                    <div class="flex xl:p-[40px] flex-col gap-[16px] p-[24px] shadow-xl rounded-xl">
+                        <img src="../img/dashboard1.png" alt="" />
+                        <p class="font-20 font-bold">CRM Lead Management Software</p>
+                        <p class="font-14">Sample Question Aliquam vel lacus porttitor, gravida enim eu, aliquam mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ac metus eros.</p>
+                        <a href="" class="btn">Learn More</a>
                     </div>
-                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
-                        <img class="w-[50px]" src="../img/Frame 289567 (1).png" alt="" />
-                        <p class="font-semibold">Task & Workflow Management</p>
-                        <p class="text-sm">Our lead management tool offers sales automation and CRM automation. Streamline your sales processes and boost productivity with automated workflows and task scheduling.</p>
-                    </div>
-                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
-                        <img class="w-[50px]" src="../img/Frame 289567 (2).png" alt="" />
-                        <p class="font-semibold">Tech Stack Integration</p>
-                        <p class="text-sm">Seamlessly integrate with HubSpot, email, and other tech stacks for improved productivity and efficiency. Our lead management tool enhances collaboration and streamline operations.</p>
-                    </div>
-                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
-                        <img class="w-[50px]" src="../img/Frame 289567 (3).png" alt="" />
-                        <p class="font-semibold">Data Enrichment</p>
-                        <p class="text-sm">Keep your data accurate and up-to-date for personalized engagement. Our CRM automatically enriches your data, providing valuable insights and improving targeting capabilities.</p>
-                    </div>
-                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
-                        <img class="w-[50px]" src="../img/Frame 289567 (4).png" alt="" />
-                        <p class="font-semibold">Faster & Easier Sales Process</p>
-                        <p class="text-sm">Maximize your sales potential with our CRM sales lead management software. Optimize your sales process for faster deal closures and smoother transactions.</p>
-                    </div>
-                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
-                        <img class="w-[50px]" src="../img/Frame 289567 (5).png" alt="" />
-                        <p class="font-semibold">AI Assistant</p>
-                        <p class="text-sm">Get intelligent insights and decision support from our AI CRM system assistant. With our marketing and sales automation software's agile optimization, you'll achieve sales goals faster.</p>
-                    </div>
-                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
-                        <img class="w-[50px]" src="../img/Frame 289567 (8).png" alt="" />
-                        <p class="font-semibold">Insightful Dashboard & Report</p>
-                        <p class="text-sm">Gain valuable insights with intuitive dashboard and detailed reports in our CRM lead management tools. See real-time data and make smart decisions to propel your business forward.</p>
-                    </div>
-                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
-                        <img class="w-[50px]" src="../img/Frame 289567 (7).png" alt="" />
-                        <p class="font-semibold">Communication Template</p>
-                        <p class="text-sm">Build consistent and impactful communication with customizable templates in our CRM lead management. Enhance your brand presence and improve engagement across all channels.</p>
-                    </div>
-                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
-                        <img class="w-[50px]" src="../img/Frame 289567 (6).png" alt="" />
-                        <p class="font-semibold">Contact Data Management</p>
-                        <p class="text-sm">Centralize your contact data for easy access and effective relationship management. Our CRM lead management system ensures your contact information is always current and accessible.</p>
+                    <div class="flex xl:p-[40px] flex-col gap-[16px] p-[24px] shadow-xl rounded-xl">
+                        <img src="../img/dashboard1.png" alt="" />
+                        <p class="font-20 font-bold">CRM Lead Management Software</p>
+                        <p class="font-14">Sample Question Aliquam vel lacus porttitor, gravida enim eu, aliquam mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ac metus eros.</p>
+                        <a href="" class="btn">Learn More</a>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Features -->
+        <section data-aos="fade-up" class="section">
+            <div class="div flex flex-col gap-[16px] xl:gap-[32px]">
+                <div class="flex flex-col gap-[8px]">
+                    <p class="text-center text-blue font-bold tracking-widest">HOW OUR CRM HELPS YOU TO</p>
+                    <h2 class="font-32 font-bold text-center">Close Faster & Deal More</h2>
+                </div>
+                <div class="flex flex-col gap-6 xl:grid-cols-3 xl:grid xl:gap-[40px]">
+                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
+                        <img class="w-[50px]" src="../img/Frame 289567.png" alt="" />
+                        <p class="font-16 font-semibold">Leads Management</p>
+                        <p class="font-12">Easily organize and prioritize your leads, leaving no opportunity behind. Our lead management software simplifies the process, optimizing efficiency and driving conversions.</p>
+                    </div>
+                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
+                        <img class="w-[50px]" src="../img/Frame 289567 (1).png" alt="" />
+                        <p class="font-16 font-semibold">Task & Workflow Management</p>
+                        <p class="font-12">Our lead management tool offers sales automation and CRM automation. Streamline your sales processes and boost productivity with automated workflows and task scheduling.</p>
+                    </div>
+                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
+                        <img class="w-[50px]" src="../img/Frame 289567 (2).png" alt="" />
+                        <p class="font-16 font-semibold">Tech Stack Integration</p>
+                        <p class="font-12">Seamlessly integrate with HubSpot, email, and other tech stacks for improved productivity and efficiency. Our lead management tool enhances collaboration and streamline operations.</p>
+                    </div>
+                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
+                        <img class="w-[50px]" src="../img/Frame 289567 (3).png" alt="" />
+                        <p class="font-16 font-semibold">Data Enrichment</p>
+                        <p class="font-12">Keep your data accurate and up-to-date for personalized engagement. Our CRM automatically enriches your data, providing valuable insights and improving targeting capabilities.</p>
+                    </div>
+                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
+                        <img class="w-[50px]" src="../img/Frame 289567 (4).png" alt="" />
+                        <p class="font-16 font-semibold">Faster & Easier Sales Process</p>
+                        <p class="font-12">Maximize your sales potential with our CRM sales lead management software. Optimize your sales process for faster deal closures and smoother transactions.</p>
+                    </div>
+                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
+                        <img class="w-[50px]" src="../img/Frame 289567 (5).png" alt="" />
+                        <p class="font-16 font-semibold">AI Assistant</p>
+                        <p class="font-12">Get intelligent insights and decision support from our AI CRM system assistant. With our marketing and sales automation software's agile optimization, you'll achieve sales goals faster.</p>
+                    </div>
+                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
+                        <img class="w-[50px]" src="../img/Frame 289567 (8).png" alt="" />
+                        <p class="font-16 font-semibold">Insightful Dashboard & Report</p>
+                        <p class="font-12">Gain valuable insights with intuitive dashboard and detailed reports in our CRM lead management tools. See real-time data and make smart decisions to propel your business forward.</p>
+                    </div>
+                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
+                        <img class="w-[50px]" src="../img/Frame 289567 (7).png" alt="" />
+                        <p class="font-16 font-semibold">Communication Template</p>
+                        <p class="font-12">Build consistent and impactful communication with customizable templates in our CRM lead management. Enhance your brand presence and improve engagement across all channels.</p>
+                    </div>
+                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
+                        <img class="w-[50px]" src="../img/Frame 289567 (6).png" alt="" />
+                        <p class="font-16 font-semibold">Contact Data Management</p>
+                        <p class="font-12">Centralize your contact data for easy access and effective relationship management. Our CRM lead management system ensures your contact information is always current and accessible.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- CTA -->
-        <div class="w-full bg-[#F6F7F8]">
-            <div class="flex flex-col lg:grid lg:grid-cols-2 mx-auto px-6 py-12 gap-6 xl:px-32 xl:max-w-[1440px] xl:mx-auto">
-                <div class="flex flex-col gap-4">
-                    <h2 class="text-2xl font-semibold">Ready to Upgrade Your Sales Process?</h2>
-                    <p class="">Stop wasting time and start closing deals faster! Experience the difference with our CRM automation software. Be the first to gain access by joining our waitlist today!</p>
+        <section data-aos="fade-up" class="section">
+            <div class="div flex flex-col gap-[32px] xl:grid xl:grid-cols-2 xl:items-center xl:gap-[80px]">
+                <img src="../img/cta1.png" alt="" />
+                <div class="flex flex-col gap-[16px] xl:gap-[24px]">
+                    <h2 class="font-bold text-left font-32">Don’t Know Where to Start? Explore Our B2B Company Database!</h2>
+                    <p class="text-left font-14">
+                        This is your gateway to success in the vibrant Indonesian B2B market! Get ready to turbocharge your business growth with our complimentary B2B database, specially crafted to to kickstart your journey into the
+                        Indonesian market.
+                    </p>
+                    <a href="/" class="btn">Join Waitlist</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features -->
+        <section data-aos="fade-up" class="section">
+            <div class="div flex flex-col gap-[16px] xl:gap-[64px]">
+                <div class="flex flex-col gap-[16px]">
+                    <p class="text-center text-blue font-bold tracking-widest">B2B COMPANY DATABASE</p>
+                    <h2 class="font-32 font-bold text-center">
+                        Homegrown Expertise,<br />
+                        <span class="text-blue">Indonesian-First</span> Approach
+                    </h2>
+                    <p class="font-16 text-center">
+                        It's crafted by entrepreneurs who live, breathe, and thrive in the Indonesian business landscape. Every data is designed with the unique needs of Indonesian businesses in mind, ensuring you get the most out of every
+                        interaction.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-6 xl:grid-cols-3 xl:grid xl:gap-[40px]">
+                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
+                        <img class="w-[50px]" src="../img/Frame 289567.png" alt="" />
+                        <p class="font-16 font-semibold">Data Coverage</p>
+                        <p class="font-12">Curated to include a vast array of Indonesian companies across industries, regions, and company sizes.</p>
+                    </div>
+                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
+                        <img class="w-[50px]" src="../img/Frame 289567 (1).png" alt="" />
+                        <p class="font-16 font-semibold">Time Saving</p>
+                        <p class="font-12">Say goodbye to manual data collection headaches. Our Database streamlines the process, freeing up your valuable time and resources.</p>
+                    </div>
+                    <div class="flex flex-col rounded-xl shadow-lg px-4 py-6 gap-4">
+                        <img class="w-[50px]" src="../img/Frame 289567 (2).png" alt="" />
+                        <p class="font-16 font-semibold">Local Support</p>
+                        <p class="font-12">Our team understands the unique challenges and opportunities of doing business in Indonesia. Get personalized support and guidance from experts who know the Indonesian market inside out.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Form -->
+        <section data-aos="fade-up" class="section bg-[#F6F7F8]">
+            <div class="div flex flex-col xl:grid xl:grid-cols-2 gap-[32px] xl:gap-[64px]">
+                <div class="flex flex-col gap-4 xl:gap-[24px]">
+                    <h2 class="font-32 font-bold">Ready to Upgrade Your Sales Process?</h2>
+                    <p class="font-16">Stop wasting time and start closing deals faster! Experience the difference with our CRM automation software. Be the first to gain access by joining our waitlist today!</p>
                     <img class="md:max-w-[500px] lg:max-w-fit" src="../img/smiling-asian-girl-waching-webinar-having-work-video-call-from-home-working-freelance-remotely-looki 1.png" alt="" />
                 </div>
                 <div class="flex flex-col bg-white p-6 rounded-lg shadow-md">
@@ -153,19 +216,98 @@
                     </script>
                 </div>
             </div>
-        </div>
-        <!-- CTA -->
+        </section>
+
+        <!-- FAQ -->
+        <section data-aos="fade-up" class="section">
+            <div class="div flex flex-col gap-[16px] xl:gap-[32px]">
+                <h2 class="font-32 font-bold text-center">Frequently Asked Question</h2>
+                <div class="flex flex-col gap-[16px] xl:grid xl:grid-cols-2 xl:gap-[40px]">
+                    <faq class="flex w-full flex-col px-[16px] py-[24px] rounded-xl shadow-xl bg-white">
+                        <dt class="flex cursor-pointer items-center justify-between gap-4" onclick="toggleAnswer(this)">
+                            <span class="font-16">Sample Question</span>
+                            <img src="../img/plus.png" alt="" />
+                        </dt>
+                        <dd class="mt-4 hidden font-14">
+                            Starting as a fixed-line telephone service tied to geographical area codes, Ofon has evolved into an IP-based fixed-line service. It is continuously developed and managed to stay relevant and adaptable to the
+                            telecommunications needs of businesses and modern lifestyles.
+                        </dd>
+                    </faq>
+                    <faq class="flex w-full flex-col px-[16px] py-[24px] rounded-xl shadow-xl bg-white">
+                        <dt class="flex cursor-pointer items-center justify-between gap-4" onclick="toggleAnswer(this)">
+                            <span class="font-16">Sample Question</span>
+                            <img src="../img/plus.png" alt="" />
+                        </dt>
+                        <dd class="mt-4 hidden font-14">
+                            Starting as a fixed-line telephone service tied to geographical area codes, Ofon has evolved into an IP-based fixed-line service. It is continuously developed and managed to stay relevant and adaptable to the
+                            telecommunications needs of businesses and modern lifestyles.
+                        </dd>
+                    </faq>
+                    <faq class="flex w-full flex-col px-[16px] py-[24px] rounded-xl shadow-xl bg-white">
+                        <dt class="flex cursor-pointer items-center justify-between gap-4" onclick="toggleAnswer(this)">
+                            <span class="font-16">Sample Question</span>
+                            <img src="../img/plus.png" alt="" />
+                        </dt>
+                        <dd class="mt-4 hidden font-14">
+                            Starting as a fixed-line telephone service tied to geographical area codes, Ofon has evolved into an IP-based fixed-line service. It is continuously developed and managed to stay relevant and adaptable to the
+                            telecommunications needs of businesses and modern lifestyles.
+                        </dd>
+                    </faq>
+                    <faq class="flex w-full flex-col px-[16px] py-[24px] rounded-xl shadow-xl bg-white">
+                        <dt class="flex cursor-pointer items-center justify-between gap-4" onclick="toggleAnswer(this)">
+                            <span class="font-16">Sample Question</span>
+                            <img src="../img/plus.png" alt="" />
+                        </dt>
+                        <dd class="mt-4 hidden font-14">
+                            Starting as a fixed-line telephone service tied to geographical area codes, Ofon has evolved into an IP-based fixed-line service. It is continuously developed and managed to stay relevant and adaptable to the
+                            telecommunications needs of businesses and modern lifestyles.
+                        </dd>
+                    </faq>
+                    <faq class="flex w-full flex-col px-[16px] py-[24px] rounded-xl shadow-xl bg-white">
+                        <dt class="flex cursor-pointer items-center justify-between gap-4" onclick="toggleAnswer(this)">
+                            <span class="font-16">Sample Question</span>
+                            <img src="../img/plus.png" alt="" />
+                        </dt>
+                        <dd class="mt-4 hidden font-14">
+                            Starting as a fixed-line telephone service tied to geographical area codes, Ofon has evolved into an IP-based fixed-line service. It is continuously developed and managed to stay relevant and adaptable to the
+                            telecommunications needs of businesses and modern lifestyles.
+                        </dd>
+                    </faq>
+                    <faq class="flex w-full flex-col px-[16px] py-[24px] rounded-xl shadow-xl bg-white">
+                        <dt class="flex cursor-pointer items-center justify-between gap-4" onclick="toggleAnswer(this)">
+                            <span class="font-16">Sample Question</span>
+                            <img src="../img/plus.png" alt="" />
+                        </dt>
+                        <dd class="mt-4 hidden font-14">
+                            Starting as a fixed-line telephone service tied to geographical area codes, Ofon has evolved into an IP-based fixed-line service. It is continuously developed and managed to stay relevant and adaptable to the
+                            telecommunications needs of businesses and modern lifestyles.
+                        </dd>
+                    </faq>
+
+                    <script>
+                        function toggleAnswer(element) {
+                            const answer = element.nextElementSibling;
+                            if (answer.style.display === 'none' || answer.style.display === '') {
+                                answer.style.display = 'block';
+                            } else {
+                                answer.style.display = 'none';
+                            }
+                        }
+                    </script>
+                </div>
+            </div>
+        </section>
 
         <!-- Footer -->
-        <footer class="w-full bg-blue-800 text-white">
-            <div class="flex flex-col mx-auto px-6 py-16 gap-6 xl:px-32 xl:max-w-[1440px] xl:mx-auto">
+        <footer data-aos="fade-up" class="section bg-blue text-white">
+            <div class="div flex flex-col gap-[24px]">
                 <div class="flex flex-col gap-2 md:max-w-[560px]">
                     <img class="max-w-[180px] mb-4" src="../img/Vector (1).png" alt="" />
-                    <p class="font-semibold">PT Pipeline Marketing Teknologi</p>
-                    <p class="font-light text-sm">Centennial Tower 29th Fl. Unit D-F, Jl. Jend. Gatot Subroto Kav. 24-25, Jakarta 12930</p>
+                    <p class="font-semibold text-white font-14">PT Pipeline Marketing Teknologi</p>
+                    <p class="font-light text-white font-14">Centennial Tower 29th Fl. Unit D-F, Jl. Jend. Gatot Subroto Kav. 24-25, Jakarta 12930</p>
                 </div>
                 <div class="flex flex-col gap-4 md:max-w-[560px]">
-                    <p class="font-light text-sm">
+                    <p class="font-light text-white font-14">
                         Pipeline is a B2B marketing solutions provider focused on CRM lead management, emphasizing data, technology, and measurement. Our products optimize marketing and sales processes to drive business growth effectively.
                     </p>
                     <div class="flex gap-3 items-center md:max-w-[560px]">
@@ -176,10 +318,18 @@
                     </div>
                 </div>
                 <div class="flex flex-col gap-4">
-                    <p class="font-semibold">Copyright © Pipeline 2024. All Rights Reserved.</p>
+                    <p class="font-16 text-white font-semibold">Copyright © Pipeline 2024. All Rights Reserved.</p>
                 </div>
             </div>
         </footer>
-        <!-- Footer -->
+
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                delay: 100,
+                duration: 1000,
+            });
+        </script>
     </body>
 </html>
